@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/golangci/golangci-lint/pkg/config"
+	"github.com/necropaw/golangci-lint/pkg/config"
 )
 
 type Validator struct {

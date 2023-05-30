@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golangci/golangci-lint/internal/robustio"
+	"github.com/necropaw/golangci-lint/internal/robustio"
 )
 
 func TestConcurrentReadsAndWrites(t *testing.T) {

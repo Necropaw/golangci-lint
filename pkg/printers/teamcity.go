@@ -7,7 +7,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/necropaw/golangci-lint/pkg/result"
 )
 
 // Field limits.

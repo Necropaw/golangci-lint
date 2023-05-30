@@ -1,8 +1,8 @@
 package processors
 
 import (
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/necropaw/golangci-lint/pkg/config"
+	"github.com/necropaw/golangci-lint/pkg/result"
 )
 
 type lineToCount map[int]int

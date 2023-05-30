@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/necropaw/golangci-lint/pkg/fsutils"
+	"github.com/necropaw/golangci-lint/pkg/result"
 )
 
 type SkipFiles struct {

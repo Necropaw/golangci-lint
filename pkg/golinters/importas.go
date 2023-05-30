@@ -7,9 +7,9 @@ import (
 	"github.com/julz/importas" //nolint:misspell
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
-	"github.com/golangci/golangci-lint/pkg/lint/linter"
+	"github.com/necropaw/golangci-lint/pkg/config"
+	"github.com/necropaw/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/necropaw/golangci-lint/pkg/lint/linter"
 )
 
 func NewImportAs(settings *config.ImportAsSettings) *goanalysis.Linter {

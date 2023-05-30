@@ -8,12 +8,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/golangci/golangci-lint/internal/robustio"
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/logutils"
-	"github.com/golangci/golangci-lint/pkg/result"
-	"github.com/golangci/golangci-lint/pkg/timeutils"
+	"github.com/necropaw/golangci-lint/internal/robustio"
+	"github.com/necropaw/golangci-lint/pkg/config"
+	"github.com/necropaw/golangci-lint/pkg/fsutils"
+	"github.com/necropaw/golangci-lint/pkg/logutils"
+	"github.com/necropaw/golangci-lint/pkg/result"
+	"github.com/necropaw/golangci-lint/pkg/timeutils"
 )
 
 var _ Processor = Fixer{}

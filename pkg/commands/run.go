@@ -15,14 +15,14 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/exitcodes"
-	"github.com/golangci/golangci-lint/pkg/lint"
-	"github.com/golangci/golangci-lint/pkg/lint/lintersdb"
-	"github.com/golangci/golangci-lint/pkg/logutils"
-	"github.com/golangci/golangci-lint/pkg/packages"
-	"github.com/golangci/golangci-lint/pkg/printers"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/necropaw/golangci-lint/pkg/config"
+	"github.com/necropaw/golangci-lint/pkg/exitcodes"
+	"github.com/necropaw/golangci-lint/pkg/lint"
+	"github.com/necropaw/golangci-lint/pkg/lint/lintersdb"
+	"github.com/necropaw/golangci-lint/pkg/logutils"
+	"github.com/necropaw/golangci-lint/pkg/packages"
+	"github.com/necropaw/golangci-lint/pkg/printers"
+	"github.com/necropaw/golangci-lint/pkg/result"
 )
 
 const defaultFileMode = 0644

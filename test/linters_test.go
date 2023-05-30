@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/golangci/golangci-lint/pkg/logutils"
-	"github.com/golangci/golangci-lint/test/testshared"
+	"github.com/necropaw/golangci-lint/pkg/logutils"
+	"github.com/necropaw/golangci-lint/test/testshared"
 )
 
 const testdataDir = "testdata"

@@ -15,11 +15,11 @@ import (
 	"github.com/mgechev/revive/rule"
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
-	"github.com/golangci/golangci-lint/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/pkg/logutils"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/necropaw/golangci-lint/pkg/config"
+	"github.com/necropaw/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/necropaw/golangci-lint/pkg/lint/linter"
+	"github.com/necropaw/golangci-lint/pkg/logutils"
+	"github.com/necropaw/golangci-lint/pkg/result"
 )
 
 const reviveName = "revive"

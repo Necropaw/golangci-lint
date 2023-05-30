@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/golangci/golangci-lint/pkg/report"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/necropaw/golangci-lint/pkg/report"
+	"github.com/necropaw/golangci-lint/pkg/result"
 )
 
 type JSON struct {

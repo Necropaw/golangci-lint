@@ -1,7 +1,7 @@
 package golinters
 
 import (
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/necropaw/golangci-lint/pkg/golinters/goanalysis"
 
 	"github.com/fpuc/gostatement"
 	"golang.org/x/tools/go/analysis"

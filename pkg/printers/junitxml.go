@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/necropaw/golangci-lint/pkg/result"
 )
 
 type testSuitesXML struct {

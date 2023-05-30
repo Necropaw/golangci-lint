@@ -1,4 +1,4 @@
-module github.com/golangci/golangci-lint
+module github.com/necropaw/golangci-lint
 
 go 1.19
 
