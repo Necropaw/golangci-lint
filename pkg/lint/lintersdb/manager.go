@@ -869,6 +869,11 @@ func (m Manager) GetAllSupportedLinterConfigs() []*linter.Config {
 			WithPresets(linter.PresetStyle).
 			WithURL("https://github.com/bombsimon/wsl"),
 
+		linter.NewConfig(golinters.NewGostatement()).
+			WithSince("v1.44.0").
+			WithPresets(linter.PresetBugs).
+			WithURL("https://github.com/fpuc/gostatement"),
+
 		// nolintlint must be last because it looks at the results of all the previous linters for unused nolint directives
 		linter.NewConfig(golinters.NewNoLintLint(noLintLintCfg)).
 			WithSince("v1.26.0").
